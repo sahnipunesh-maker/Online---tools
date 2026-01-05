@@ -1,0 +1,21 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Tools</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Online Image & PDF Tools</h1>
+
+<input type="file" id="imgInput">
+<input type="number" id="width" placeholder="Width">
+<input type="number" id="height" placeholder="Height">
+<button onclick="resizeImage()">Resize</button>
+
+<a id="downloadImg"></a>
+
+<script src="script.js"></script>
+</body>
+</html>
